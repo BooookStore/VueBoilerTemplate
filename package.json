@@ -32,7 +32,6 @@
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpackconfig/webpack.dev.config.js",
     "build": "webpack --config ./webpackconfig/webpack.prod.config.js",
-    "test": "webpack --config ./webpackconfig/webpack.prod.config.js && tsc && mocha --recursive",
-    "preprocess": "node ./src/preprocess/main.js"
+    "test": "webpack --config ./webpackconfig/webpack.prod.config.js && tsc && mocha --recursive"
   }
 }
