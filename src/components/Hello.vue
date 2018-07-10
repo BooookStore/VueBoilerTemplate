@@ -1,6 +1,7 @@
 <template>
     <div>
         <p>Hello, Vue !</p>
+        <p>{{message}}</p>
         <p>Support</p>
         <ul>
             <li v-for="(content, key) in support" :key="key">{{content}}</li>
