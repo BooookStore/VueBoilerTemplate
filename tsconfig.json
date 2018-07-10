@@ -6,7 +6,7 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "typeRoots": [
-      "node_module/@types"
+      "node_modules/@types"
     ]
   },
   "include": [
