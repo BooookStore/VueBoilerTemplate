@@ -1,0 +1,2 @@
+// noinspection TsLint
+require("jsdom");
