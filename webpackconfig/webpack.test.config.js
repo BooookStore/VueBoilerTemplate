@@ -10,5 +10,6 @@ module.exports = merge(baseConfig, {
         devtoolModuleFilenameTemplate: "[absolute-resource-path]",
         devtoolFallbackModuleFilenameTemplate: "[absolute-resource-path]?[hash]"
     },
+    // テストはNode環境で実行されるため、Nodeライブラリへの依存を外部化し実行を高速化
     externals: [nodeExternals()]
 });
