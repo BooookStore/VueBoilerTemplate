@@ -3,7 +3,6 @@ const common = require('./common');
 
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const nodeExternals = require('webpack-node-externals');
 
 // noinspection JSUnresolvedFunction
 module.exports = {
@@ -57,6 +56,5 @@ module.exports = {
             filename: 'index.html',
             template: './src/index.html',
         }),
-    ],
-    externals: [nodeExternals()]
+    ]
 };
