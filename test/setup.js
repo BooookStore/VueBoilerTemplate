@@ -1,3 +1,3 @@
 "use strict";
 // noinspection TsLint
-require("jsdom");
+require("jsdom-global")();
