@@ -42,6 +42,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpackconfig/webpack.dev.config.js",
     "build": "webpack --config ./webpackconfig/webpack.prod.config.js",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' 'test/**/*.ts'",
     "vuecomponenttest": "cross-env NODE_ENV=test mocha-webpack --webpack-config ./webpackconfig/webpack.test.config.js --require test/setup.js test/**/*.spec.js"
   }
 }
